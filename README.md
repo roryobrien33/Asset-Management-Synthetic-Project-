@@ -43,17 +43,18 @@ asset-lifecycle-portfolio/
 │ └── Asset_Management_Synthetic_Project_A.ipynb # Main analysis notebook
 │
 ├── data-raw/
-│ ├── asset_lifecycle_public_synthetic.xlsx # Anonymised input data
-│ ├── Asset Criticality.xlsx # Mapping reference file
-│ └── other_raw_files.xlsx # (if any)
+│ ├── asset_lifecycle_public_synthetic.xlsx # Anonymised input dataset
+│ └── Asset Criticality.xlsx # Criticality mapping reference file
 │
 ├── data-processed/
-│ ├── asset_mapping_cleaned.xlsx # Clean mapping outputs
-│ ├── df_assets_final.xlsx # Final cleaned dataset
-│ └── system_full_path_mapping.xlsx # Unique path mappings
+│ ├── asset_mapping_cleaned.xlsx # Cleaned mapping output
+│ ├── df_assets_final.xlsx # Final processed dataset
+│ └── system_full_path_mapping.xlsx # Unique system-path map
 │
 ├── data-external/
-└── (empty or supporting documentation)
+│ └── (empty / reserved for future supporting files)
+│
+└── README.md # Project documentation
 
 
 This layout follows a standard, reproducible data science folder pattern.
